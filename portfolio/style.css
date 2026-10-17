@@ -1,0 +1,131 @@
+/* Universal Selector */
+* {
+    box-sizing: border-box;
+}
+
+/* Element Selector */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f5fa;
+    color: #263238;
+    margin: 0;
+    padding: 0;
+}
+
+/* ID Selector */
+#home {
+    background-color: #172554;
+    color: white;
+    text-align: center;
+    padding: 30px;
+    height: 300px;
+}
+
+/* Profile Image */
+#home img {
+    width: 120px;
+    height: 120px;
+    border: 3px solid white;
+    border-radius: 50%;
+}
+
+/* Group Selector */
+h1, h2, h3 {
+    font-family: Arial, sans-serif;
+}
+
+/* Descendant Selector */
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 8px;
+}
+
+/* Navigation */
+nav {
+    background-color: #2563eb;
+    text-align: center;
+    padding: 15px;
+}
+
+nav a:hover {
+    background-color: #172554;
+}
+
+/* Section Styling */
+section {
+    background-color: white;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #d5dce8;
+}
+
+/* Section Headings */
+section h2 {
+    color: #1d4ed8;
+    border-bottom: 2px solid #93c5fd;
+    padding-bottom: 8px;
+}
+
+/* Table Styling */
+table {
+    width: 100%;
+    background-color: white;
+    border-collapse: collapse;
+}
+
+th {
+    background-color: #dbeafe;
+    color: #172554;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+/* Class Selector */
+.project, .document, .gallery-item {
+    background-color: #eff6ff;
+    border: 1px solid #bfdbfe;
+    padding: 15px;
+    margin: 12px 0;
+}
+
+/* Gallery Images */
+.gallery-item img {
+    width: 100%;
+    height: 250px;
+    border: 2px solid #cbd5e1;
+}
+
+/* Links */
+a {
+    color: #1d4ed8;
+}
+
+nav a {
+    color: white;
+}
+
+/* List Styling */
+li {
+    padding: 5px;
+}
+
+/* Footer */
+footer {
+    background-color: #172554;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+footer a {
+    color: #bfdbfe;
+}
+
+/* Visibility Property Example */
+.hidden-text {
+    visibility: hidden;
+}
